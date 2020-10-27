@@ -1,6 +1,6 @@
 import pandas
 
-excel_data_df = pandas.read_excel('testupload.xlsx', sheet_name='Sheet1')
+excel_data_df = pandas.read_excel('categories_upload.xlsx', sheet_name='Sheet1')
 
 json_str = excel_data_df.to_json(orient='records')
 
